@@ -1,0 +1,56 @@
+{
+  "task_id": "T20261119-151658-greet-cli-e2e",
+  "title": "greet cli e2e",
+  "created_at": "2026-11-19 15:16:58 +0800",
+  "deliver_dir": "C:\\Users\\<user>\\Documents\\Qoder\\2026-11-19\\cea38378\\_e2e\\out",
+  "status": "verified",
+  "session_id": "ses_e0d5221f2ffeeARvRRWvbkA1RV",
+  "model": "opencode/deepseek-v4.1-flash-free#low",
+  "runs": [
+    {
+      "tag": "dispatch",
+      "at": "2026-11-19 15:17:28 +0800",
+      "model": "opencode/deepseek-v4.1-flash-free#high",
+      "exit": 0,
+      "timeout": false,
+      "tools": 6,
+      "tokens": {
+        "input": 8914,
+        "output": 662,
+        "cache_read": 47744
+      },
+      "tool_errors": []
+    },
+    {
+      "tag": "dispatch",
+      "at": "2026-11-19 15:20:43 +0800",
+      "model": "opencode/deepseek-v4.1-flash-free#high",
+      "exit": 0,
+      "timeout": false,
+      "tools": 15,
+      "tokens": {
+        "input": 16823,
+        "output": 3713,
+        "cache_read": 153984
+      },
+      "tool_errors": [],
+      "stray_writes": []
+    },
+    {
+      "tag": "revise-2",
+      "at": "2026-11-19 15:22:52 +0800",
+      "model": "opencode/deepseek-v4.1-flash-free#low",
+      "exit": 0,
+      "timeout": false,
+      "tools": 20,
+      "tokens": {
+        "input": 27210,
+        "output": 4632,
+        "cache_read": 392448
+      },
+      "tool_errors": [],
+      "stray_writes": []
+    }
+  ],
+  "verified_at": "2026-11-19 15:25:14 +0800"
+}

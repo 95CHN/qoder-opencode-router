@@ -3,6 +3,3 @@ __pycache__/
 *.zip
 opencode-tasks/
 _smoke/
-
-# 运行留证（含本机绝对路径与会话 ID，仅本地保存，入口在 README「已知限制」）
-examples/

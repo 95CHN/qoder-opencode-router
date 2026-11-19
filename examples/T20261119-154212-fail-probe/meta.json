@@ -1,0 +1,113 @@
+{
+  "task_id": "T20261119-154212-fail-probe",
+  "title": "fail probe",
+  "created_at": "2026-11-19 15:42:12 +0800",
+  "deliver_dir": "C:\\Users\\<user>\\Documents\\Qoder\\2026-11-19\\cea38378\\_e2e\\out2",
+  "status": "verified",
+  "session_id": "ses_e0d3a5aafffepMt8u2YFUQdGGw",
+  "model": "opencode/hy4-flash-free#high",
+  "runs": [
+    {
+      "tag": "dispatch",
+      "at": "2026-11-19 15:42:34 +0800",
+      "model": "opencode/deepseek-v4.1-flash-free#high",
+      "exit": 0,
+      "timeout": false,
+      "tools": 8,
+      "tokens": {
+        "input": 9229,
+        "output": 2370,
+        "cache_read": 67968
+      },
+      "tool_errors": [],
+      "stray_writes": []
+    },
+    {
+      "tag": "badmodel",
+      "at": "2026-11-19 15:43:38 +0800",
+      "model": "opencode/definitely-not-a-real-model#high",
+      "exit": 1,
+      "timeout": false,
+      "tools": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "tool_errors": [],
+      "stray_writes": []
+    },
+    {
+      "tag": "badmodel",
+      "at": "2026-11-19 15:44:27 +0800",
+      "model": "opencode/definitely-not-a-real-model#high",
+      "exit": 1,
+      "timeout": false,
+      "tools": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "tool_errors": [],
+      "errors": [
+        "provider.no-route: Model unavailable: opencode/definitely-not-a-real-model"
+      ],
+      "stray_writes": []
+    },
+    {
+      "tag": "badmodel",
+      "at": "2026-11-19 15:45:34 +0800",
+      "model": "opencode/definitely-not-a-real-model#high",
+      "exit": 1,
+      "timeout": false,
+      "tools": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "tool_errors": [],
+      "errors": [
+        "provider.no-route: Model unavailable: opencode/definitely-not-a-real-model"
+      ],
+      "stray_writes": []
+    },
+    {
+      "tag": "fallback",
+      "at": "2026-11-19 15:45:41 +0800",
+      "model": "opencode/beam-free#high",
+      "exit": 1,
+      "timeout": false,
+      "tools": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "tool_errors": [],
+      "errors": [
+        "provider.auth: This model is not available in your country"
+      ],
+      "stray_writes": []
+    },
+    {
+      "tag": "fallback",
+      "at": "2026-11-19 15:46:41 +0800",
+      "model": "opencode/hy4-flash-free#high",
+      "exit": 0,
+      "timeout": false,
+      "tools": 10,
+      "tokens": {
+        "input": 9072,
+        "output": 2184,
+        "cache_read": 77568
+      },
+      "tool_errors": [],
+      "errors": [],
+      "stray_writes": []
+    }
+  ],
+  "failure_class": "unknown-error",
+  "verified_at": "2026-11-19 15:47:43 +0800"
+}

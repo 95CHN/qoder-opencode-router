@@ -1,0 +1,10 @@
+{
+  "opencode/hy4-flash-free": {
+    "status": "ok",
+    "at": "2026-11-19 15:47:33 +0800"
+  },
+  "opencode/definitely-not-a-real-model": {
+    "status": "model-not-found",
+    "at": "2026-11-19 15:51:54 +0800"
+  }
+}
