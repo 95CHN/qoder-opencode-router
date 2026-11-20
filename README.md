@@ -1,4 +1,4 @@
-# qoder-opencode-router
+# qoder-opencode-router 赛博外包
 
 把实现类任务从 Qoder 外包给 opencode CLI 的免费模型，省下贵模型的词元。
 
